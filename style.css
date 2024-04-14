@@ -1,0 +1,78 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: url(imagens/campo.jpg) no-repeat center fixed;
+    font-family: cursive;
+}
+
+#cabecalho{
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-size: 1.5em;
+    background:#989999; 
+
+}
+
+#principal{
+    border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#esquerda{ 
+    width: 23%;
+    float: left;
+    min-width: 15%;
+    
+    
+}
+
+ul li{
+    list-style: none;
+    padding: 5px 0 ;  
+    background: plum;
+    text-align: center;
+    color: black;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue; 
+}
+
+ul li:hover{
+    background: black;
+}
+
+ul li a:hover{
+    color: aliceblue;
+}
+
+
+#direita{
+    border: 2px solid red;
+    width: 60%;
+    float: right;
+    background:  hsla(0, 0%, 0%, 0.1);
+    color: aliceblue;
+    text-align: center;
+}
+
+#baixo{
+    clear: both;
+    color: aliceblue;
+}
+   
+
+
+#rodape{
+    clear: both;
+    background: #989999; 
+    padding: 60px;
+    text-align: center;
+    font-size: 2em;
+}
